@@ -45,7 +45,7 @@ const questions =
           type: 'list',
           name: 'licence',
           message: 'Select licence type',
-          choices: ['MIT', 'Apache', 'GNU', 'Boost Software', 'Creative commons', 'Eclipse public'],
+          choices: ['MIT', 'Apache', 'Boost Software', 'Creative commons', 'Eclipse public'],
 
         },
         {
@@ -82,9 +82,3 @@ inquirer
 
 // function call to initialize program
 init();
-
-
-//from a list of options then a badge for that license is added near the top of the README and a notice is added to the section of the README entitled **License** that explains which license the application is covered under
-
-//  * When a user clicks on the links in the **Table of Contents** then they are taken to the corresponding section of the README
-

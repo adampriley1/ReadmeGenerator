@@ -5,7 +5,7 @@ The challenge was to build a README generator using node and Inquirer
 
 ## Description
 
-Wrote code using Node and javascript as part of student assignment. When the user enters 'node index/js' into the terminal, they are presented with a series of questions. Once these are answered, a README file is gererated based on the answers
+Wrote code using Node and javascript as part of student assignment. When the user enters 'node index/js' into the terminal, they are presented with a series of questions. Once these are answered, a README file is gererated based on the answers.
 
 
 Requirements:
