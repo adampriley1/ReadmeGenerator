@@ -1,47 +1,47 @@
 // function to generate markdown for README
 
-// function to generate markdown for README
 function generateMarkdown(answers) {
   return `# 
   
   ${answers.title}
   ===================
 
+
   APPLICATION DESCRIPTION
   ______________________________
   ${answers.description}
 
   Table of Contents
-  * Installation
-  * Usage
-  * Credits
-  * Licence
-  * Tests
-  * Questions
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Licence](#licence)
+  * [Credits](#credits)
+  * [Tests](#tests)
+  * [Questions](#questions)
   
-  INSTALLATION INSTRUCTIONS
+  INSTALLATION INSTRUCTIONS (#installation)
   ______________________________
   * ${answers.installation}
 
-  USAGE 
+  USAGE (#usage)
   ______________________________
   * ${answers.usage}
 
-  LICENCE TYPE
+  LICENCE TYPE (#licence)
   ______________________________
   * ${answers.licence}
 
-  CREDITS
+  CONTRIBUTING  (#credits)
   ______________________________
   * ${answers.credits}
 
-  TESTS
+  TESTS (#tests)
   ______________________________
   * ${answers.tests}
 
-  QUESTIONS
+  QUESTIONS (#questions)
   ______________________________
-  Any questions regarding this application, assistance can be reached by contacting ${answers.email}, or github: ${answers.github}
+  Any questions regarding this application, assistance can be reached via email at  ${answers.email}, or my github profile: ${answers.github}
 
  
 

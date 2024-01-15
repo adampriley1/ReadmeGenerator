@@ -61,11 +61,6 @@ const questions =
       
 ];
 
-//Inquirer code -prompt user for data and write answers
-
-//   .then((answers) =>
-//   writeToFile('README.md', generateMarkdownFile(answers))
-//   );
 
 // function to write README file 
 function writeToFile(answers) {
@@ -88,4 +83,8 @@ inquirer
 // function call to initialize program
 init();
 
+
+//from a list of options then a badge for that license is added near the top of the README and a notice is added to the section of the README entitled **License** that explains which license the application is covered under
+
+//  * When a user clicks on the links in the **Table of Contents** then they are taken to the corresponding section of the README
 

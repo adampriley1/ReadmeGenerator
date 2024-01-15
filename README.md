@@ -1,47 +1,53 @@
-# 
-  
-  Node student assignment
-  ===================
+# README Generator 
 
-  APPLICATION DESCRIPTION
-  ______________________________
-  Application to create a READ
+The challenge was to build a README generator using node and Inquirer
 
-  Table of Contents
-  * Installation
-  * Usage
-  * Credits
-  * Licence
-  * Tests
-  * Questions
-  
-  INSTALLATION INSTRUCTIONS
-  ______________________________
-  * type node index.js into the terminal
 
-  USAGE 
-  ______________________________
-  * to create a README file using inputted data
+## Description
 
-  LICENCE TYPE
-  ______________________________
-  * MIT
+Wrote code using Node and javascript as part of student assignment. When the user enters 'node index/js' into the terminal, they are presented with a series of questions. Once these are answered, a README file is gererated based on the answers
 
-  CREDITS
-  ______________________________
-  * Adam Riley
 
-  TESTS
-  ______________________________
-  * Non required
+Requirements:
 
-  QUESTIONS
-  ______________________________
-  Any questions regarding this application, assistance can be reached by contacting contact@adamrileyphotography.com, or github: adampriley
+You can quickly and easily create a README file by using a command-line application to generate one. This allows the project creator to devote more time to working on the project.
 
- 
+The task is to create a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer). 
 
-Copyright (c) Adam Riley
+The application will be invoked by using the following command:
+
+```bash
+node index.js
+
+
+Screenshot of working HTML page:
+
+![Alt text](<assets/screenshots/weather screenshot_1.png>)
+![Alt text](<assets/screenshots/weather screenshot_2.png>)
+
+Video Demonstration:
+https://vimeo.com/902920946/a8fa26d345?share=copy
+
+## Installation
+
+Application Link:
+
+https://adampriley1.github.io/weather-dashboard/
+
+## Usage
+
+Enter the name of the city you would like to see the weather for. To view the weather of a previously searched city, click the created button below the search box. 
+
+
+
+## Credits
+
+Adam Riley 
+
+## License
+MIT License
+
+Copyright (c) [2023] [Adam Riley]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -61,5 +67,5 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
----
 
+---

@@ -1,33 +1,33 @@
 # 
   
-  aa
+  a
   ===================
+
 
   APPLICATION DESCRIPTION
   ______________________________
-  a
 
   Table of Contents
-  * Installation
-  * Usage
-  * Credits
-  * Licence
-  * Tests
-  * Questions
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Credits](#credits)
+  * [Licence](#licence)
+  * [Tests](#tests)
+  * [Questions](#questions)
   
   INSTALLATION INSTRUCTIONS
   ______________________________
   * a
 
-  USAGE 
+  USAGE (#usage)
   ______________________________
-  * a
+  * 
 
   LICENCE TYPE
   ______________________________
   * MIT
 
-  CREDITS
+  CONTRIBUTING 
   ______________________________
   * a
 
@@ -35,13 +35,13 @@
   ______________________________
   * a
 
-  QUESTIONS
+  QUESTIONS (#questions)
   ______________________________
-  Any questions regarding this application, assistance can be reached by contacting a, or github: s
+  Any questions regarding this application, assistance can be reached via email at  a, or my github profile: a
 
  
 
-Copyright (c) aa
+Copyright (c) a
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
