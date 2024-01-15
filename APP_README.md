@@ -1,16 +1,12 @@
-// function to generate markdown for README
-
-function generateMarkdown(answers) {
-  const licenseBadge = generateBadge(answers.licence);
-  return `# 
+# 
   
-  ${answers.title}
+  Test project
   ===================
 
 
   APPLICATION DESCRIPTION
   ______________________________
-  ${answers.description}
+  Some text about test project
 
   Table of Contents
   * [Installation](#installation)
@@ -22,32 +18,32 @@ function generateMarkdown(answers) {
   
   INSTALLATION INSTRUCTIONS (#installation)
   ______________________________
-  * ${answers.installation}
+  * No
 
   USAGE (#usage)
   ______________________________
-  * ${answers.usage}
+  * To test
 
   LICENCE TYPE (#licence)
   ______________________________
  
-  ${licenseBadge} 
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
   CONTRIBUTING  (#contributing)
   ______________________________
-  * ${answers.credits}
+  * Adam Riley
 
   TESTS (#tests)
   ______________________________
-  * ${answers.tests}
+  * None
 
   QUESTIONS (#questions)
   ______________________________
-  Any questions regarding this application, assistance can be reached via email at  ${answers.email}, or my github profile: ${answers.github}
+  Any questions regarding this application, assistance can be reached via email at  a, or my github profile: d
 
  
 
-Copyright (c) ${answers.name}
+Copyright (c) Adam Riley
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -68,33 +64,4 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ---
-
-`;
-}
-
-module.exports = generateMarkdown;
-
-//gets the license badge based on user answers
-function generateBadge(license) {
-  if (license === 'MIT') {
-    // Add the license badge from shields.io
-    return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
-  }
-  if (license === 'Apache') {
-    return '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)]'
-  }
-  if (license === 'Boost Software') {
-    return '[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)]'
-  }
-  if (license === 'Creative commons') {
-    return '[![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)]'
-  }
-  if (license === 'Eclipse public') {
-    return '[![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0)'
-  }
-}
-
-;
-
-
 

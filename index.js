@@ -45,7 +45,7 @@ const questions =
           type: 'list',
           name: 'licence',
           message: 'Select licence type',
-          choices: ['MIT', 'Apache', 'Boost Software', 'Creative commons', 'Eclipse public'],
+          choices: ['MIT', 'Apache', 'GNU', 'Boost Software', 'Creative commons', 'Eclipse public'],
 
         },
         {
@@ -82,3 +82,9 @@ inquirer
 
 // function call to initialize program
 init();
+
+
+
+
+
+

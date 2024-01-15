@@ -20,23 +20,25 @@ The application will be invoked by using the following command:
 node index.js
 
 
-Screenshot of working HTML page:
+Screenshot of working in terminal:
 
-![Alt text](<assets/screenshots/weather screenshot_1.png>)
-![Alt text](<assets/screenshots/weather screenshot_2.png>)
+![Alt text](<screenshots/Screenshot 2024-01-15 at 14.06.49.png>)
 
 Video Demonstration:
 https://vimeo.com/902920946/a8fa26d345?share=copy
 
 ## Installation
+Open Intergrated terminal from the ReadmeGenerator folder
+
 
 Application Link:
 
-https://adampriley1.github.io/weather-dashboard/
+https://adampriley1.github.io/ReadmeGenerator/
 
 ## Usage
 
-Enter the name of the city you would like to see the weather for. To view the weather of a previously searched city, click the created button below the search box. 
+To run, type 'node index.js' into terminal.
+Answer questions, README file then produced with the name APP_README.md
 
 
 
