@@ -1,12 +1,11 @@
 # 
   
-  Test project
+  Node Readme creator
   ===================
 
 
   APPLICATION DESCRIPTION
-  ______________________________
-  Some text about test project
+  Create a readme file using data inputted by the user
 
   Table of Contents
   * [Installation](#installation)
@@ -17,29 +16,22 @@
   * [Questions](#questions)
   
   INSTALLATION INSTRUCTIONS (#installation)
-  ______________________________
-  * No
+  No install instructions
 
   USAGE (#usage)
-  ______________________________
-  * To test
+  To quickly create a readme file. Open Terminal and type node index.js. Andwer the questions. A readme file will be created
 
   LICENCE TYPE (#licence)
-  ______________________________
- 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
+  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)] 
 
   CONTRIBUTING  (#contributing)
-  ______________________________
-  * Adam Riley
+  Adam Riley
 
   TESTS (#tests)
-  ______________________________
-  * None
+  No testing required
 
   QUESTIONS (#questions)
-  ______________________________
-  Any questions regarding this application, assistance can be reached via email at  a, or my github profile: d
+  Any questions regarding this application, assistance can be reached via email at  contact@adamrileyphotography.com, or my github profile: adampriley
 
  
 

@@ -9,7 +9,6 @@ function generateMarkdown(answers) {
 
 
   APPLICATION DESCRIPTION
-  ______________________________
   ${answers.description}
 
   Table of Contents
@@ -21,28 +20,21 @@ function generateMarkdown(answers) {
   * [Questions](#questions)
   
   INSTALLATION INSTRUCTIONS (#installation)
-  ______________________________
-  * ${answers.installation}
+  ${answers.installation}
 
   USAGE (#usage)
-  ______________________________
-  * ${answers.usage}
+  ${answers.usage}
 
   LICENCE TYPE (#licence)
-  ______________________________
- 
   ${licenseBadge} 
 
   CONTRIBUTING  (#contributing)
-  ______________________________
-  * ${answers.credits}
+  ${answers.credits}
 
   TESTS (#tests)
-  ______________________________
-  * ${answers.tests}
+  ${answers.tests}
 
   QUESTIONS (#questions)
-  ______________________________
   Any questions regarding this application, assistance can be reached via email at  ${answers.email}, or my github profile: ${answers.github}
 
  
