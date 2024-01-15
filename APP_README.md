@@ -1,11 +1,11 @@
 # 
   
-  Node student assignment
+  aa
   ===================
 
   APPLICATION DESCRIPTION
   ______________________________
-  Application to create a READ
+  a
 
   Table of Contents
   * Installation
@@ -17,11 +17,11 @@
   
   INSTALLATION INSTRUCTIONS
   ______________________________
-  * type node index.js into the terminal
+  * a
 
   USAGE 
   ______________________________
-  * to create a README file using inputted data
+  * a
 
   LICENCE TYPE
   ______________________________
@@ -29,19 +29,19 @@
 
   CREDITS
   ______________________________
-  * Adam Riley
+  * a
 
   TESTS
   ______________________________
-  * Non required
+  * a
 
   QUESTIONS
   ______________________________
-  Any questions regarding this application, assistance can be reached by contacting contact@adamrileyphotography.com, or github: adampriley
+  Any questions regarding this application, assistance can be reached by contacting a, or github: s
 
  
 
-Copyright (c) Adam Riley
+Copyright (c) aa
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

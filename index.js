@@ -71,7 +71,7 @@ const questions =
 function writeToFile(answers) {
   const readmeContent = generateMarkdown(answers);
  
-    fs.writeFile('README.md',readmeContent, (err) =>
+    fs.writeFile('APP_README.md',readmeContent, (err) =>
 err ? console.error(err) : console.log('Successfully wrote README file!')
     )
 };
