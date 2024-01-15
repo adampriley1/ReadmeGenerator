@@ -1,6 +1,11 @@
-# ad
+# 
+  
+  the big project
+  ===================
 
-  aa
+  APPLICATION DESCRIPTION
+  ______________________________
+  a little big project
 
   Table of Contents
   * Installation
@@ -12,31 +17,31 @@
   
   INSTALLATION INSTRUCTIONS
   ______________________________
-  * aas
+  * nope
 
   USAGE 
   ______________________________
-  * df
+  * testing little big projects
 
   LICENCE TYPE
   ______________________________
-  * GNU
+  * Boost Software
 
   CREDITS
   ______________________________
-  * dsf
+  * adam riley
 
   TESTS
   ______________________________
-  * undefined
+  * none 
 
   QUESTIONS
   ______________________________
-  Any questions regarding this application, assistance can be reached by contacting sdfs, or github: asdf
+  Any questions regarding this application, assistance can be reached by contacting adaf @.com, or github: ada@ azdfsd.com
 
  
 
-  Copyright (c) undefined
+Copyright (c) adam 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

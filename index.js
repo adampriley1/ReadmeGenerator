@@ -34,7 +34,12 @@ const questions =
         {
           type: 'input',
           name: 'credits',
-          message: 'Enter a short description of your project',
+          message: 'Enter project credits / creators ',
+        },
+        {
+          type: 'input',
+          name: 'tests',
+          message: 'What user testing is required?',
         },
         {
           type: 'list',

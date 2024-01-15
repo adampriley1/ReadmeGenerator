@@ -2,8 +2,13 @@
 
 // function to generate markdown for README
 function generateMarkdown(answers) {
-  return `# ${answers.title}
+  return `# 
+  
+  ${answers.title}
+  ===================
 
+  APPLICATION DESCRIPTION
+  ______________________________
   ${answers.description}
 
   Table of Contents
@@ -40,7 +45,7 @@ function generateMarkdown(answers) {
 
  
 
-  Copyright (c) ${answers.name}
+Copyright (c) ${answers.name}
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
