@@ -1,6 +1,10 @@
-# ad
+// function to generate markdown for README
 
-  aa
+// function to generate markdown for README
+function generateMarkdown(answers) {
+  return `# ${answers.title}
+
+  ${answers.description}
 
   Table of Contents
   * Installation
@@ -12,31 +16,31 @@
   
   INSTALLATION INSTRUCTIONS
   ______________________________
-  * aas
+  * ${answers.installation}
 
   USAGE 
   ______________________________
-  * df
+  * ${answers.usage}
 
   LICENCE TYPE
   ______________________________
-  * GNU
+  * ${answers.licence}
 
   CREDITS
   ______________________________
-  * dsf
+  * ${answers.credits}
 
   TESTS
   ______________________________
-  * undefined
+  * ${answers.tests}
 
   QUESTIONS
   ______________________________
-  Any questions regarding this application, assistance can be reached by contacting sdfs, or github: asdf
+  Any questions regarding this application, assistance can be reached by contacting ${answers.email}, or github: ${answers.github}
 
  
 
-  Copyright (c) undefined
+  Copyright (c) ${answers.name}
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -57,4 +61,11 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ---
+
+`;
+}
+
+module.exports = generateMarkdown;
+
+
 
